@@ -1,0 +1,117 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-heading-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 40px;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+
+.span-para {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.list-of-money {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-of-money {
+    flex-direction: row;
+  }
+}
+
+.input-element-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element-container {
+    flex-direction: row;
+  }
+}
+
+.container-of-input {
+  padding: 35px;
+  padding-left: 50px;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container-of-input {
+    width: 60%;
+  }
+}
+
+.form-input-elements {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-element {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding: 7px;
+  outline: none;
+}
+
+.button-val {
+  background-color: #0b69ff;
+  color: white;
+  width: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.container-of-input2 {
+  padding: 35px;
+  padding-left: 50px;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  width: 100%;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-of-input2 {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+
+ul {
+  list-style: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #7e858e;
+  border-radius: 2px;
+}

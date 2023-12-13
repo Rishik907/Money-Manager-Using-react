@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.img-size {
+  width: 20px;
+  height: 20px;
+}
+
+.button-val-check {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+

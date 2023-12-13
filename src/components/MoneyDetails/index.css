@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.base-model {
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .base-model {
+    width: 25%;
+  }
+}
+
+.green-model {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.blue-model {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.purple-model {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+
+.balance-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+}
+
+.amount-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+
+.image-size {
+  height: 80px;
+  width: 80px;
+}
